@@ -11,7 +11,9 @@ marks = float(input("enter marks:"))
 print(f'welcome {username},marks :%5.4d' %marks)
 
 s1 = 'GeeksforGeeks'
-s2 = '2nd line'
+s2 = ' 2nd line'
 print(s1[::-1],end='@')
 print(end = '@')
-print(s2 + s1)
+list = s2.split()
+s3 = "".join([i.capitalize() for i in list])
+print(s3)
