@@ -10,8 +10,8 @@ username = input("enter username:")
 marks = float(input("enter marks:"))
 print(f'welcome {username},marks :%5.4d' %marks)
 
-s1 = 'my string'
+s1 = 'GeeksforGeeks'
 s2 = '2nd line'
-print(s1,end='@')
+print(s1[-8:-5],end='@')
 print(end = '@')
 print(s2)
