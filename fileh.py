@@ -1,8 +1,5 @@
-import time
-with open('abc.txt','a') as file:
-    age = 20
-    marks = 55
-    state = 'GJ'
-    time =  time.ctime()
-    file.write(f'\n{age},{marks},{state},{time}')
+with open('product.csv','r') as file:
+    data = file.readlines()
+    print(data)
+
 file.close()
