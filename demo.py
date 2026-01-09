@@ -50,5 +50,3 @@ if check_qualification(state, subject, marks, total_score):
     print(f"{name} from {state} is qualified for the entrance exam in {subject}.")
 else:
     print(f"{name} from {state} is NOT qualified for the entrance exam in {subject}.")
-
-
