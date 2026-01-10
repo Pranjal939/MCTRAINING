@@ -46,7 +46,7 @@ if menu == "Register User":
 
     name = st.text_input("Name")
     age = st.number_input("Age", min_value=1, max_value=100)
-    gender = st.selectbox("Genders", ["Male", "Female", "Other"])
+    gender = st.selectbox("Gender", ["Male", "Female", "Other"])
 
     if st.button("Register"):
         cr.execute(
