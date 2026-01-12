@@ -1,5 +1,8 @@
 import pandas as pd
+import streamlit as st
 data = pd.read_csv('products.csv')
 data.head()
-print(data.info)
-print(data['Price'])
+data.info()
+st.write(data['Price'])
+st.title('upload your data in')
+
