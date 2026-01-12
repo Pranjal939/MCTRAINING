@@ -26,6 +26,7 @@
 #print(products.update({'monitor' : 1000}))
 #print(products)
 #create a program to cofify or not  g=110
+#env/Scripts/activate  
 
 def check_qualification(state, subject, marks, total_score):
     percentage = (marks / total_score) * 100

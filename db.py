@@ -19,7 +19,7 @@ def main():
     print("welcome to fit track")
     print('Main menu')
     print('1. Register User')
-    print('2. Log ')
+    print('2. Log Exercise')
     print('3. add exerices')
     print('4. view all users')
     print('5.Exit')
